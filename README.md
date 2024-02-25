@@ -1,6 +1,6 @@
 # tasksAPI
 
-tasksAPI is a RESTful API tailored for managing tasks, incorporating features like task validation and task expiration deadlines. It's an ideal solution for applications requiring robust task management functionalities.
+tasksAPI is a RESTful API tailored for managing tasks, incorporating features like task validation, task expiration deadlines and autodelete. It's an ideal solution for applications requiring robust task management functionalities.
 
 ## Getting Started
 
@@ -51,7 +51,7 @@ npm run dev
 ## Features
 
 - **CRUD Operations for Tasks:** Facilitates creating, reading, updating, and deleting tasks.
-- **Validation Date:** Enforces a validation deadline for tasks, with updates extending the duration.
+- **Validation Date:** Enforces a validation deadline for tasks, with updates extending the duration, after expiry, it automatically deletes the task..
 - **Field Validation:** Ensures the presence of all necessary fields and the uniqueness of tasks.
 - **Toggle Complete:** Allows toggling the completion status of tasks.
 
